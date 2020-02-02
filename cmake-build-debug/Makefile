@@ -124,19 +124,6 @@ inWords\fast:
 	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\build
 .PHONY : inWords\fast
 
-#=============================================================================
-# Target rules for targets named practice
-
-# Build rule for target.
-practice: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) practice
-.PHONY : practice
-
-# fast build rule for target.
-practice\fast:
-	$(MAKE) -f CMakeFiles\practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice.dir\build
-.PHONY : practice\fast
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -164,36 +151,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\main.cpp.s
 .PHONY : main.cpp.s
 
-practice.obj: practice.cpp.obj
-
-.PHONY : practice.obj
-
-# target to build an object file
-practice.cpp.obj:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\practice.cpp.obj
-	$(MAKE) -f CMakeFiles\practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice.dir\practice.cpp.obj
-.PHONY : practice.cpp.obj
-
-practice.i: practice.cpp.i
-
-.PHONY : practice.i
-
-# target to preprocess a source file
-practice.cpp.i:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\practice.cpp.i
-	$(MAKE) -f CMakeFiles\practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice.dir\practice.cpp.i
-.PHONY : practice.cpp.i
-
-practice.s: practice.cpp.s
-
-.PHONY : practice.s
-
-# target to generate assembly for a file
-practice.cpp.s:
-	$(MAKE) -f CMakeFiles\inWords.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\inWords.dir\practice.cpp.s
-	$(MAKE) -f CMakeFiles\practice.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\practice.dir\practice.cpp.s
-.PHONY : practice.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -202,14 +159,10 @@ help:
 	@echo ... depend
 	@echo ... inWords
 	@echo ... edit_cache
-	@echo ... practice
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... practice.obj
-	@echo ... practice.i
-	@echo ... practice.s
 .PHONY : help
 
 

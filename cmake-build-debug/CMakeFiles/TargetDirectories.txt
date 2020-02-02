@@ -1,4 +1,3 @@
 C:/Users/GilbertS/CLionProjects/inWords/cmake-build-debug/CMakeFiles/inWords.dir
 C:/Users/GilbertS/CLionProjects/inWords/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/GilbertS/CLionProjects/inWords/cmake-build-debug/CMakeFiles/practice.dir
 C:/Users/GilbertS/CLionProjects/inWords/cmake-build-debug/CMakeFiles/rebuild_cache.dir

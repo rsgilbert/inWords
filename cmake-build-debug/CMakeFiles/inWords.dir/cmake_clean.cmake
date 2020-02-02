@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/inWords.dir/main.cpp.obj"
-  "CMakeFiles/inWords.dir/practice.cpp.obj"
   "inWords.exe"
   "inWords.exe.manifest"
   "inWords.lib"

@@ -3,5 +3,4 @@ project(inWords)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(inWords main.cpp practice.cpp)
-add_executable(practice practice.cpp)
+add_executable(inWords main.cpp)

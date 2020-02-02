@@ -3,5 +3,3 @@
 
 CMakeFiles\inWords.dir\main.cpp.obj: ..\main.cpp
 
-CMakeFiles\inWords.dir\practice.cpp.obj: ..\practice.cpp
-
